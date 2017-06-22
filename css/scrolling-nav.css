@@ -1,21 +1,14 @@
 /*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * @author:Vaibhav Sarwade
  */
 
 body {
-    width: 100%;
-    height: 100%;
 	font-family: 'Pangolin', cursive;
 }
 
 html {
-    width: 100%;
-    height: 100%;
 	font-family: 'Pangolin', cursive;
 }
-
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -31,36 +24,76 @@ html {
     }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+
+/* 
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+		
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+		
+        padding: 0;
+    }
+}
+
+
+Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
 .intro-section 
 {
     height: 100%;
+	padding-left : 50px;
+    padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
-    background: #fff;
+
 	background-color:#18BC9C;
 }
 
 .about-section 
 {
     height: 100%;
+    padding-top: 150px;
+	padding-left : 50px;
+	padding-bottom: 150px;
    
     background: #eee;
 }
 .project-section
 {
-	 height: 100%;
-    text-align: center;
-	 background: #eee;
+	height: 100%;
+    padding-top: 150px;
+	padding-bottom: 150px;
+   
+    background: #eee;
 }
 
 .skills-section 
 {
     height: 100%;
+    padding-top: 50px;
+	padding-left : 50px;
+	padding-bottom: 150px;
     text-align: center;
-    background: #fff;
 	background-color:#2D3E50;
 	color:white;
 }
@@ -68,6 +101,8 @@ of those sections to manage the look and feel of the site. */
 .contact-section 
 {
     height: 100%;
+    padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
     background: #eee;
 }
@@ -83,8 +118,9 @@ of those sections to manage the look and feel of the site. */
 
 .projectNames
 {
-	padding-top:100px;
-	padding-bottom:100px;
+	height:250px;
+	padding-top : 100px;
+	
 }
 .Areas
 {
@@ -322,7 +358,7 @@ ul.social-icons {
     text-decoration: none;
 }
 .fa-facebook {
-    padding:10px 14px;
+    padding:10px 14px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -331,13 +367,13 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-facebook:hover {
-	 padding:20px 14px;
+	 padding:20px 14px 10px 14px;
     background-color: #3d5b99;
 }
 
 .fa-github
 {
-	padding:10px 14px;
+	padding:10px 14px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -347,12 +383,12 @@ ul.social-icons {
 	
 }
 .fa-github:hover {
-	padding:20px 14px;
+	padding:20px 14px 10px 14px;
     background-color: #6e5494;
 }
 
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 12px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -361,7 +397,7 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-twitter:hover {
-	 padding:20px 14px;
+	 padding:20px 14px 10px 14px;
     background-color: #00aced;
 }
 /*
@@ -378,7 +414,7 @@ ul.social-icons {
     background-color: #eb8231;
 }*/
 .fa-youtube {
-    padding:10px 14px;
+    padding:10px 14px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -387,11 +423,11 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-youtube:hover {
-	padding:20px 14px;
+	padding:20px 14px 10px 14px;
     background-color: #e64a41;
 }
 .fa-linkedin {
-    padding:10px 9px;
+    padding:10px 9px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -400,11 +436,11 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-linkedin:hover {
-	 padding:20px 14px;
+	 padding:20px 14px 10px 14px;
     background-color: #0073a4;
 }
 .fa-google-plus {
-    padding:10px 9px;
+    padding:10px 9px 10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -413,13 +449,14 @@ ul.social-icons {
     background-color: #322f30;
 }
 .fa-google-plus:hover {
-	padding:20px 9px;
+	padding:20px 9px 10px 14px;
     background-color: #e25714;
 }
 .social
 {
   background-image: url("../images/social.png");
   background-repeat: no-repeat;
+  background-size:contain;
   background-position: right;
   background-color: #374456;
 }
