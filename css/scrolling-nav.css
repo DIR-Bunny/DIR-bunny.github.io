@@ -7,22 +7,26 @@
 body {
     width: 100%;
     height: 100%;
+	font-family: 'Pangolin', cursive;
 }
 
 html {
     width: 100%;
     height: 100%;
+	font-family: 'Pangolin', cursive;
 }
 
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
+		
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
+		
         padding: 0;
     }
 }
@@ -31,30 +35,399 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+.intro-section 
+{
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+	background-color:#18BC9C;
 }
 
-.about-section {
+.about-section 
+{
+    height: 100%;
+    padding-top: 150px;
+   
+    background: #eee;
+}
+.project-section
+{
+	 height: 100%;
+    padding-top: 150px;
+    text-align: center;
+	 background: #eee;
+}
+
+.skills-section 
+{
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+	background-color:#2D3E50;
+	color:white;
+}
+
+.contact-section 
+{
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
-
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+.aboutDiv
+{
+	 background: #18BC9C;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+.verticalLine 
+{
+  border-left: thick solid #18BC9C;
 }
+
+.projectNames
+{
+	height:250px;
+	padding-top : 100px;
+	
+}
+.Areas
+{
+	background-color: #DC8229;
+	
+	box-shadow: inset -1px -7px 37px -6px #545252;
+-webkit-box-shadow: inset -1px -7px 37px -6px #545252;
+-moz-box-shadow: inset -1px -7px 37px -6px #545252;
+-o-box-shadow: inset -1px -7px 37px -6px #545252;
+}
+.Languages
+{
+	background-color: #02CDB3;
+	box-shadow: inset 3px -7px 37px -6px #545252;
+-webkit-box-shadow: inset 3px -7px 37px -6px #545252;
+-moz-box-shadow: inset 3px -7px 37px -6px #545252;
+-o-box-shadow: inset 3px -7px 37px -6px #545252;
+}
+.Tools
+{
+	background-color: #E6D019;
+	box-shadow: inset -1px -1px 37px -6px #545252;
+-webkit-box-shadow: inset -1px -1px 37px -6px #545252;
+-moz-box-shadow: inset -1px -1px 37px -6px #545252;
+-o-box-shadow: inset -1px -1px 37px -6px #545252;
+}
+.Frameworks
+{
+	background-color: #0396F2;
+	box-shadow: inset 4px -1px 37px -6px #545252;
+-webkit-box-shadow: inset 4px -1px 37px -6px #545252;
+-moz-box-shadow: inset 4px -1px 37px -6px #545252;
+-o-box-shadow: inset 4px -1px 37px -6px #545252;
+}
+.blockquote
+{
+	background-color:red;
+	color:white;
+}
+.glyphicon-lg{font-size:3em}
+.blockquote-box{border-left:5px solid #E6E6E6;margin-bottom:25px;padding-left:20px;}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box.blockquote-primary{border-color:#357EBD}
+.blockquote-box.blockquote-primary .square{background-color:#428BCA;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#4CAE4C}
+.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#46B8DA}
+.blockquote-box.blockquote-info .square{background-color:#5BC0DE;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#D43F3A}
+.blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+/*
+areas = #DC8229
+Languages = #02CDB3
+Tools = #E6D019;
+Frameworks = #0396F2;
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 80%;
+  height: 80%;
+  padding: 0;
+}
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #3c7dcf;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px;
+  background: #6598d9;
+  border: 0;
+}
+
+.modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 60px;
+  width: 100%;
+  font-weight: 300;
+  overflow: auto;
+}
+
+.modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  padding: 10px;
+  background: #f1f3f5;
+}
+.btn-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -100px;
+  width: 200px;
+}
+*/
+
+
+
+.modal
+{
+	/*
+	opacity: 0.8;
+    filter: alpha(opacity=50);*/
+}
+
+.subTypes
+{
+	border: 3px solid white;
+    box-sizing: border-box;
+}
+
+
+
+/*
+h1,
+h2,
+h3 {
+  color: #60cc69;
+  line-height: 1.5;
+
+  // first
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  color: lighten(#5f6377, 20%);
+
+  // last
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+*/
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  background: #f1f3f5;
+  border-left: 1px solid darken(#f1f3f5, 10%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: darken(#f1f3f5, 20%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+li
+{
+	
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 700px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+	padding : 5px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+	 padding:20px 14px;
+    background-color: #3d5b99;
+}
+
+.fa-github
+{
+	padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+	
+}
+.fa-github:hover {
+	padding:20px 14px;
+    background-color: #6e5494;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+	 padding:20px 14px;
+    background-color: #00aced;
+}
+/*
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}*/
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+	padding:20px 14px;
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+	 padding:20px 14px;
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+	padding:20px 9px;
+    background-color: #e25714;
+}
+.social
+{
+  background-image: url("../images/social.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #374456;
+}
+
+
