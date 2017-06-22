@@ -25,10 +25,7 @@ $(document).ready(function()
 		$("#MyModal").modal('hide');
 	});
 	
-	
-});
-
-// ===== Scroll to Top ==== 
+	// ===== Scroll to Top ==== 
 	$(window).scroll(function() {
 	    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
 		$('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -41,3 +38,6 @@ $(document).ready(function()
 		scrollTop : 0                       // Scroll to top of body
 	    }, 500);
 	});
+
+});
+
