@@ -32,7 +32,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" class="text-center">
+<body id="page-top" class="text-center" data-spy="scroll" data-target=".navbar" data-offset="50">
 	<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
  <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -69,9 +69,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-		    <li>
-			<a class="page-scroll" href="#resume">Resume</a>
-		    </li>
+				    <li>
+						<a class="page-scroll" href="#resume">Resume</a>
+				    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -80,7 +80,7 @@
     </nav>
 
     <!-- Intro Section -->
-    <div id="intro" class="row intro-section container-fluid">
+    <div id="intro" class="row section intro-section container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -100,7 +100,7 @@
     </div>
 
     <!-- About Section -->
-    <div id="about" class="row about-section container-fluid">
+    <div id="about" class="row section about-section container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -121,7 +121,7 @@
     </div>
 
     <!-- skills Section -->
-    <div id="skills" class="row skills-section container-fluid">
+    <div id="skills" class="row section  skills-section container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <h1>skills Section</h1>
@@ -139,7 +139,7 @@
 									<h1>TOOLS</h1>
 								</div>
 								<div class="col-sm-6 btn projectNames btn-warning">
-									<h1>FRAMEWORKS</h1
+									<h1>FRAMEWORKS</h1>
 								</div>
 							</div>
 						</div>
@@ -148,10 +148,9 @@
                 </div>
             </div>
 		</div>
-	</div>
 	
 	 <!-- project Section -->
-    <div id="project" class="row project-section container-fluid">
+    <div id="project" class="row section project-section container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <h1>project Section</h1>
@@ -161,7 +160,7 @@
     </div>
 	
 	 <!-- social Section -->
-    <div id="social" class="row skills-section social container-fluid">
+    <div id="social" class="row section skills-section social container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <h1>social Section</h1>
@@ -188,7 +187,7 @@
     </div>
 	
     <!-- Contact Section -->
-    <div id="contact" class="row contact-section container-fluid">
+    <div id="contact" class="row section contact-section container-fluid">
             <div class="row">
                 <div class="col-sm-12">
 			<div class="verticalLine">
@@ -196,32 +195,47 @@
 			</div>
                 </div>
             </div>
-	    <div class="row">
-		    <div class="col-sm-6">
+	    <div class="row" style="margin-top: 30px;">
+	    	<div class="col-sm-1">
+	    	
+	    	</div>
+		    <div class="col-sm-5">
+		  	   <div class="input-group margin-bottom-sm">
+				  <span class="input-group-addon"><i class="fa fa-user-o fa-fw" aria-hidden="true"></i></span>
+				  <input class="form-control" type="text" placeholder="Name">
+				</div>
 		    	<div class="input-group margin-bottom-sm">
-			  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-			  <input class="form-control" type="text" placeholder="Email address">
-			</div>
-			<div class="input-group">
-			  <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-			  <input class="form-control" type="password" placeholder="Password">
-			</div>
+				  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+				  <input class="form-control" type="text" placeholder="Email address">
+				</div>
+				<div class="input-group margin-bottom-sm ">
+				  <textarea class="form-control " cols="100" rows="5" type="text" placeholder="Message"></textarea>
+				</div>
+				<div class="margin-bottom-sm text-center">
+				  <button class="btn btn-md btn-primary btn-block " type="button">Send</button>
+				</div>
 		    </div>
 		    <div class="col-sm-6">
 			    <div class="row">
-			    	<span><i class="fa fa-map-marker fa-4x" aria-hidden="true" ></i>&nbsp:Pune</span>
+			    	<div class="col-sm-1" ><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></div>
+			    	<div class="col-sm-11">Pune</div>
+			    	<!-- <span><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Pune</span> -->
 			    </div>
 			    <div class="row">
-			    	<span><i class='fa fa-envelope faa-horizontal animated fa-4x'></i>&nbsp:A@b.com</span>
+			    	<div class="col-sm-1" ><i class='fa fa-envelope faa-horizontal animated fa-2x'></i></div>
+			    	<div class="col-sm-11">A@b.com</div>
+			    	<!-- <span><i class='fa fa-envelope faa-horizontal animated fa-2x'></i>&nbsp;A@b.com</span> -->
 			    </div>
 			    <div class="row">
-			    	<span><i class="fa fa-mobile fa-4x" aria-hidden="true"></i>&nbsp:123456789</span>
+			    	<div class="col-sm-1" ><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></div>
+			    	<div class="col-sm-11">123456789</div>
+			    	<!-- <span><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>&nbsp;123456789</span> -->
 			    </div>
 		    </div>
 	    </div>
     </div>
 	    <!-- Resume Section -->
-    <div id="resume" class="row skills-section container-fluid">
+    <div id="resume" class="row section skills-section container-fluid">
             <div class="row">
                 <div class="col-sm-12">
 					<div class="verticalLine">
@@ -258,7 +272,7 @@
 	<!-- LANGUAGESPannel -->
 	<div class="LANGUAGESPannel collapse">
 		<div class="panel panel-primary text-center">
-		  <div class="panel-heading">Areas</div>
+		  <div class="panel-heading">Language</div>
 		  <div class="panel-body">
 			<div class="success subTypes">
 				C & CPP
@@ -286,7 +300,7 @@
 	<!-- TOOLSPannel -->
 	<div class="TOOLSPannel collapse">
 		<div class="panel panel-primary text-center">
-		  <div class="panel-heading">Areas</div>
+		  <div class="panel-heading">Tools</div>
 		  <div class="panel-body">
 			<div class="success subTypes">
 				Data Structure
@@ -309,7 +323,7 @@
 	<!-- FRAMEWORKS -->
 	<div class="FRAMEWORKSPannel collapse">
 		<div class="panel panel-primary text-center">
-		  <div class="panel-heading">Areas</div>
+		  <div class="panel-heading">Frameworks</div>
 		  <div class="panel-body">
 			<div class="success subTypes">
 				JQury
