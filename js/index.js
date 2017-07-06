@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  $("#3js").click(function(){window..open('index3.html','_blank');});
+  $("#3js").click(function(){window.open('index3.html','_blank');});
   
   $(".projectNames").click(function(){var type=$(this).find("h1").text();$("#myModalLabel").text(type);var AllData=$("."+type+"Pannel").html();$(".myModalBody").text('');$(".myModalBody").append(AllData);$("#MyModal").modal('show')});$('.close').click(function(){$("#MyModal").modal('hide')});$(window).scroll(function()
 {if($(this).scrollTop()>=$('.section').position().top){console.log($(this).attr("id"))}
