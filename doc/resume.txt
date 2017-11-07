@@ -1,1 +1,186 @@
-This is my resume.. :)
+
+
+Name:                 VAIBHAV SARWADE                    	
+Designation:        Analyst / Software Engineer	
+Residence:          Bangalore 	
+Nationality:          Indian	
+Marital Status:     Unmarried	
+Gender:               Male	
+Passport No:        NA
+Passport:              NA
+Visa:                      NA
+Country :              India  
+Mobile:                +91 7276124968
+Email:                  vaibhav-babanrao.sarwaade@capgemini.com
+
+	
+	
+	
+
+Objective:
+To grow both professionally and personally through continuous up-gradation of knowledge in field of Software Development and the Management. Looking for a challenging assignment.
+
+Career Summary:
+I have proficiency in developing software applications, web Applications with spring and hibernate in J2EE technology with 9+ months of experience. 
+
+Work Experience:
+	Currently working as an Analyst/ Software Engineer (Developer) with Capgemini, Bangalore in WCS Framework– August 2017 Onwards.
+	I’ve worked as Developer with Capgemini, Bangalore in J2EE technologies, using Java, Spring, Hibernate, Quartz, Spring Scheduling, Oracle, HTML, CSS, JS, JQuery   – Nov 2016  to  August 2017
+
+
+
+
+
+
+
+
+
+
+
+
+	                                                       
+Operating Systems	: Windows Family, Linux
+GUI / Languages	: C, C++,Java, .Net ,SQL, PLSQL, Python, 
+Technologies	  : J2EE (JSP, Servlet, JDBC), Java-Bean, HTML 5,  JAVASCRIPT 2.0,JQuery 3.2.1, AJAX, Web services
+Web - App Servers	: Apache-Tomcat 8.5, WebSphere Application server
+Frame works		: Spring 4.0, Spring Batch, Hibernate 4.0, Bootstrap,Three.js
+Database		: SQL Server 2008, Oracle 9i, MySQL
+Tools			: Eclipse, SVN, VS 2013, Jenkins ,Clear Case, Clear Quest 
+	
+	
+
+	
+	Ecommerce 
+
+
+
+	 Speak	 Read	 Write
+ENGLISH	 Yes	Yes	Yes
+MARATHI	 Yes	Yes	Yes
+HINDI	 Yes	Yes	Yes
+
+Project Name	IKEA  - IRW
+Client	IKEA 
+Star Date	Feb 2017 
+End Date	Aug 2017 / Till Now
+Role	Responsible for automating critical processes. 
+POC for Online Test Portal.
+Technology used in project	J2EE	Bootstrap
+	Spring 4.0	CSS 
+	JQuery	MySql
+	HTML 	Oracle
+		
+ Description	IKEA is one of the largest retailers in the home furnishing. IRW is the team responsible for showing all product related information with IKEA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Project Name	IKEA - CFB
+Client	IKEA
+Star Date	August 2017
+End Date	-
+Role	Responsible for requirement coding, bug fixing, fixing code review, front end changes
+
+Technology used in project	Java	strut
+	HTML	CSS
+	JQuery	
+	Teamsite	
+		
+Description	IKEA is one of the largest retailers in the home furnishing. CFB is the team responsible for upgrading IKEA website according to customer requirement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+Training attended: WCS, Underscore.js, Backbone.js  Capgemini
+
+
+
+1.	PG Diploma in Advanced Computing (PG-DAC) 2016, Sunbeam Institute of Information Technology, Pune, Maharashtra, India.
+2.	BE in Electronics and Telecommunication with 64 %, May 2015, Sinhgad Institute of technology, Pune University, Lonavala ,Maharashtra, India
+3.	Higher Secondary Certification (HSC) with 68 %, March 2011, Bhaskaracharya junior college, Aurangabad, Maharashtra, India.
+4.	SSC with 74%, March 2009, Janata Vidya Mandir, Murud, Maharashtra, India.
+
+
+Present Address :
+Chaitanya Niwas,
+Behind Old Water Tank, 
+Shivaji Nagar, Murud - 413510
+Email: vaibhav-babanrao.sarwaade@capgemini.com
+
+
+
